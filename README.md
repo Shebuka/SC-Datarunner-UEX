@@ -2,7 +2,7 @@
 
 A lightweight Windows desktop application for Star Citizen players to automate DataRunner tasks for the UEX Corporation website. Capture trading terminal screenshots, extract commodity data using Tesseract OCR, and submit it to the UEX API with a single click, contributing to a shared pool of trading information for the Star Citizen community.
 
-![In-Game Terminal Screenshot](data/terminal_screenshot.png)
+![Application Usage Screenshot](data/app_usage_screenshot.png)
 
 ## Features
 
@@ -48,8 +48,6 @@ A lightweight Windows desktop application for Star Citizen players to automate D
 4. **Access Help**:
    - Revisit the tutorial anytime via the "Help > Show Tutorial" menu.
 
-![Application Usage Screenshot](data/app_usage_screenshot.png)
-
 ### Best Practices for Screenshot Capture
 
 - **Minimize Glare**: Position your character to reduce screen glare, or try a different terminal with better lighting.
@@ -57,6 +55,8 @@ A lightweight Windows desktop application for Star Citizen players to automate D
 - **Disable Hints**: Turn off in-game hints (Options > Game Settings > Show Hints, Control Hints) to avoid text overlap.
 - **Avoid Overlays**: Ensure `r_DisplayInfo` or other overlays do not obscure the commodity list.
 - **Scroll Carefully**: When scrolling, ensure the first commodity is fully visible to avoid partial data extraction.
+
+![In-Game Terminal Screenshot](data/terminal_screenshot.jpg)
 
 ## Frequently Asked Questions (FAQ)
 
@@ -71,6 +71,8 @@ Only the parsed commodity data (terminal name, commodity details) and a perspect
 
 ### What If I Encounter Issues?
 Check the [Known Issues](https://github.com/Shebuka/SC-Datarunner-UEX/issues?q=is%3Aopen+is%3Aissue+label%3Abug) page or file a new issue on the [GitHub repository](https://github.com/Shebuka/SC-Datarunner-UEX/issues).
+
+![Application icon](data/icon@512.png)
 
 ## Disclaimer
 
