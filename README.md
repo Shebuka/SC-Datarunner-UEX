@@ -34,14 +34,14 @@ A lightweight Windows desktop application for Star Citizen players to automate D
    - Follow the interactive tutorial to learn how to capture screenshots, select the game environment (LIVE/PTU), and use the app.
 
 2. **Capture Screenshots**:
-   - In Star Citizen, navigate to a trading terminal kiosk and open its inventory (Buy or Sell tab).
-   - Ensure the inventory screen is visible, with the cargo deck image centered and commodity details listed.
+   - In Star Citizen, navigate to the trading terminal you want to update.
+   - Access the terminal, under 'Your Inventories' select the terminal's inventory, identifiable by the cargo deck image at the center and a list of commodities with their Available Cargo Sizes (SCU).
    - Press <kbd>Print Screen</kbd> to capture the screen. Scroll and repeat to capture all commodities, ensuring the first commodity is fully visible.
    - Follow [Best Practices](#best-practices-for-screenshot-capture) for optimal OCR results.
 
 3. **Review and Submit Data**:
    - Switch to the application to view extracted data in a list.
-   - Check for fields highlighted in red/orange (indicating errors or low confidence) and correct them inline.
+   - Check the terminal name and the fields highlighted in red/orange (indicating errors or low confidence) and correct them inline.
    - Click "Send" to submit individual entries or "Send All" to submit all entries at once to the UEX API.
    - Screenshots are saved to the `/screenshots` folder within the application directory.
 
