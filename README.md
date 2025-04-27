@@ -1,19 +1,18 @@
 # Star Citizen Datarunner for UEX
 
-A lightweight Windows desktop application for Star Citizen players to automate DataRunner tasks for the UEX Corporation website. Capture trading terminal screenshots, extract commodity data using Tesseract OCR, and submit it to the UEX API with a single click, contributing to a shared pool of trading information for the Star Citizen community.
+A lightweight Windows desktop application for Star Citizen players to automate DataRunner tasks for the UEX Corporation website. Capture trading terminal screenshots with a single keypress, extract commodity data using Tesseract OCR, and submit it to the UEX API with one click, contributing to a shared pool of trading information for the Star Citizen community. Save time and effort with automated screenshot handling and precise data processing, including proper rounding of commodity prices, especially at busy locations with extensive commodity lists.
 
 ![Application Usage Screenshot](data/app_usage_screenshot.png)
 
 ## Features
 
-- **Automated Screenshot Processing**: Capture commodity kiosk data by pressing <kbd>Print Screen</kbd> in-game.
-- **Accurate Data Extraction**: Uses Tesseract OCR to extract terminal names, commodity details (name, SCU, stock level, price), and terminal type (buy/sell).
-- **User-Friendly Interface**: Review, edit, and submit data with inline corrections and visual feedback.
+- **Automated Screenshot Processing**: Capture commodity kiosk data by pressing <kbd>Print Screen</kbd> in-game, eliminating the need for manual screenshot management.
+- **Accurate Data Extraction**: Uses Tesseract OCR to extract terminal names, commodity details (name, SCU, stock level, price), and terminal type (buy/sell) with high accuracy, including proper price rounding.
+- **User-Friendly Interface**: Review, edit, and submit data with inline corrections and visual feedback in a list view with collapsible cells.
 - **Language Support**: Available in English (🇬🇧), with planned support for German (🇩🇪), Italian (🇮🇹), and others based on community interest.
-- **Local Processing**: Screenshot processing is performed locally, with parsed commodity data and a perspective-corrected screenshot sent to the UEX API for verification.
-- **Tutorial and Help**: Interactive tutorial on first launch and accessible via the Help menu.
+- **Local Processing**: Screenshot processing is performed locally, ensuring privacy, with only parsed commodity data and a perspective-corrected screenshot sent to the UEX API for verification.
+- **Tutorial and Help**: Interactive tutorial on first launch and accessible via the Help menu to guide users through the process.
 - **Windows Support**: Optimized for Windows, the only platform supported by Star Citizen.
-- [Known Issues](https://github.com/Shebuka/SC-Datarunner-UEX/issues?q=is%3Aopen+is%3Aissue+label%3Abug)
 
 ## Installation
 
@@ -61,7 +60,7 @@ A lightweight Windows desktop application for Star Citizen players to automate D
 ## Frequently Asked Questions (FAQ)
 
 ### Why Use Star Citizen Datarunner?
-This application streamlines the process of scraping commodity kiosk data, saving time and contributing valuable trading information to the UEX community. It automates data extraction and submission, making it seamless to support UEX's shared trading database.
+This application streamlines the process of scraping commodity kiosk data, saving time and effort for Star Citizen players. It automates screenshot capture and data extraction, properly rounds commodity prices, and simplifies submission to the UEX API, making it ideal for busy trading locations with extensive commodity lists. Contribute valuable trading information to the UEX community with minimal hassle.
 
 ### Where Are My Screenshots Processed?
 All processing is performed locally on your computer, ensuring privacy and security.
@@ -76,10 +75,10 @@ Check the [Known Issues](https://github.com/Shebuka/SC-Datarunner-UEX/issues?q=i
 
 ## Disclaimer
 
-Star Citizen Datarunner for UEX is a closed-source project. All rights are reserved by the developers. This application is not officially affiliated with UEX Corporation or Roberts Space Industries, the developers of Star Citizen.
+All rights are reserved. Star Citizen Datarunner for UEX is not officially affiliated with UEX Corporation or Roberts Space Industries, the developers of Star Citizen.
 
 ## Acknowledgments
 
 - [UEX Corporation](https://uexcorp.space/) for providing the API and community platform.
 - [Tesseract OCR](https://github.com/tesseract-ocr/tesseract) for enabling robust text recognition.
-- The Star Citizen community for inspiring this tool.
+- The Star Citizen community for inspiring this tool and providing valuable feedback.
