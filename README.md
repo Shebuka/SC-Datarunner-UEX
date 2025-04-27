@@ -1,6 +1,6 @@
 # Star Citizen Datarunner for UEX
 
-A lightweight Windows desktop application for Star Citizen players to automate DataRunner tasks for the UEX Corporation website. Capture trading terminal screenshots with a single keypress, extract commodity data using Tesseract OCR, and submit it to the UEX API with one click, contributing to a shared pool of trading information for the Star Citizen community. Save time and effort with automated screenshot handling and precise data processing, including proper rounding of commodity prices, especially at busy locations with extensive commodity lists.
+A lightweight Windows desktop application for Star Citizen players to automate DataRunner tasks for the UEX Corporation website. Capture trading terminal screenshots with a single keypress, extract commodity data using Tesseract OCR, and submit it to the UEX Website with one click, contributing to a shared pool of trading information for the Star Citizen community. Save time and effort with automated screenshot handling and precise data processing, including proper rounding of commodity prices, especially at busy locations with extensive commodity lists.
 
 ![Application Usage Screenshot](data/app_usage_screenshot.png)
 
@@ -19,7 +19,7 @@ A lightweight Windows desktop application for Star Citizen players to automate D
 1. Download the [latest release](https://github.com/Shebuka/SC-Datarunner-UEX/releases) `.7z` file from the "Assets" section.
 2. Extract the `SC-Datarunner-UEX` folder to any location on your computer.
 3. Ensure Star Citizen is installed (LIVE or PTU environment).
-4. Obtain your personal UEX API token from [UEXCorp.space](https://uexcorp.space/account/home/tab/account_main#panel-secret-key) by logging into your account and navigating to the API section.
+4. Obtain your personal UEX Secret Key from [UEXCorp.space](https://uexcorp.space/account/home/tab/account_main#panel-secret-key) by logging into your account and scrolling to the Secret Key section on your account page.
 
 ### Uninstalling
 
@@ -30,7 +30,7 @@ A lightweight Windows desktop application for Star Citizen players to automate D
 
 1. **Launch the Application**:
    - Double-click `SC-Datarunner-UEX.exe` in the extracted folder to start the application.
-   - On first launch, complete the onboarding wizard to enter your personal UEX API token (from [UEXCorp.space](https://uexcorp.space/account/home/tab/account_main#panel-secret-key)) and select your Star Citizen screenshot folder.
+   - On first launch, complete the onboarding wizard to enter your personal UEX Secret Key (from [UEXCorp.space](https://uexcorp.space/account/home/tab/account_main#panel-secret-key)) and select your Star Citizen screenshot folder.
    - Follow the interactive tutorial to learn how to capture screenshots, select the game environment (LIVE/PTU), and use the app.
 
 2. **Capture Screenshots**:
@@ -42,7 +42,7 @@ A lightweight Windows desktop application for Star Citizen players to automate D
 3. **Review and Submit Data**:
    - Switch to the application to view extracted data in a list.
    - Check the terminal name and the fields highlighted in red/orange (indicating errors or low confidence) and correct them if needed.
-   - Click "Send" to submit individual entries or "Send All" to submit all entries at once to the UEX API, associating submissions with your UEX account.
+   - Click "Send" to submit individual entries or "Send All" to submit all entries at once to the UEX Website, associating submissions with your UEX account.
    - Screenshots are saved to the `/screenshots` folder within the application directory.
 
 4. **Access Help**:
@@ -61,7 +61,7 @@ A lightweight Windows desktop application for Star Citizen players to automate D
 ## Frequently Asked Questions (FAQ)
 
 ### Why Use Star Citizen Datarunner?
-This application streamlines the process of scraping commodity kiosk data, saving time and effort for Star Citizen players. It automates screenshot capture and data extraction, properly rounds commodity prices, and simplifies submission to the UEX API, making it ideal for busy trading locations with extensive commodity lists. Contribute valuable trading information to the UEX community with minimal hassle.
+This application streamlines the process of scraping commodity kiosk data, saving time and effort for Star Citizen players. It automates screenshot capture and data extraction, properly rounds commodity prices, and simplifies submission to the UEX Website, making it ideal for busy trading locations with extensive commodity lists. Contribute valuable trading information to the UEX community with minimal hassle.
 
 ### Where Are My Screenshots Processed?
 All processing is performed locally on your computer, ensuring privacy and security.
