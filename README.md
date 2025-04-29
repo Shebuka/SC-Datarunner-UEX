@@ -18,7 +18,7 @@ A lightweight Windows desktop application for Star Citizen players to automate D
 
 1. Download the [latest release](https://github.com/Shebuka/SC-Datarunner-UEX/releases) `.7z` file from the "Assets" section.
 2. Extract the `SC-Datarunner-UEX` folder to any location on your computer.
-3. Ensure Star Citizen is installed (LIVE or PTU environment).
+3. Ensure Star Citizen is installed (LIVE or PTU environment) and in English (🇬🇧).
 4. Obtain your personal UEX Secret Key from [UEXCorp.space](https://uexcorp.space/account/home/tab/account_main#panel-secret-key) by logging into your account and scrolling to the Secret Key section on your account page.
 
 ### Uninstalling
@@ -50,6 +50,7 @@ A lightweight Windows desktop application for Star Citizen players to automate D
 
 ### Best Practices for Screenshot Capture
 
+- **English only**: Currently, we can only correctly detect the screenshot commodities if the game is in **English**.
 - **Minimize Glare**: Position your character to reduce screen glare, or try a different terminal with better lighting.
 - **Align Closely**: Stand as close and straight to the terminal as possible for maximum clarity.
 - **Disable Hints**: Turn off in-game hints (Options > Game Settings > Show Hints, Control Hints) to avoid text overlap.
