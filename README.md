@@ -8,9 +8,12 @@ A lightweight Windows desktop application for Star Citizen players to automate D
 
 - **Automated Screenshot Processing**: Capture commodity kiosk data by pressing <kbd>Print Screen</kbd> in-game, eliminating the need for manual screenshot management.
 - **Accurate Data Extraction**: Uses Tesseract OCR to extract terminal names, commodity details (name, SCU, stock level, price), and terminal type (buy/sell) with high accuracy, including proper price rounding.
-- **User-Friendly Interface**: Review, edit, and submit data with inline corrections and visual feedback in a list view with collapsible cells.
+- **Reliable Terminal Assignment**: When multiple kiosks share the same location, the app uses color analysis to identify the correct one. If uncertain, it prompts you to select from a dropdown — preventing wrong submissions.
+- **User-Friendly Interface**: Review, edit, and submit data with inline corrections and visual feedback in a collapsible list view. Copy terminal selections across submissions with one click, and opt individual entries in or out of batch sending.
+- **Flexible Submission Workflow**: Send individual entries with "Send" or batch-submit all eligible entries with "Send All." A per-submission checkbox lets you exclude specific screenshots from batch sends.
 - **Language Support**: Available in English (🇬🇧), with planned support for German (🇩🇪), Italian (🇮🇹), and others based on community interest.
 - **Local Processing**: Screenshot processing is performed locally, ensuring privacy, with only parsed commodity data and a perspective-corrected screenshot sent to the UEX API for verification.
+- **Automatic Screenshot Cleanup**: Optionally deletes original screenshots after their data has been successfully sent, keeping your folders tidy.
 - **Tutorial and Help**: Interactive tutorial on first launch and accessible via the Help menu to guide users through the process.
 - **Windows Support**: Optimized for Windows, the only platform supported by Star Citizen.
 
@@ -41,8 +44,10 @@ A lightweight Windows desktop application for Star Citizen players to automate D
 
 3. **Review and Submit Data**:
    - Switch to the application to view extracted data in a list.
-   - Check the terminal name and the fields highlighted in red/orange (indicating errors or low confidence) and correct them if needed.
-   - Click "Send" to submit individual entries or "Send All" to submit all entries at once to the UEX Website, associating submissions with your UEX account.
+   - Verify the terminal **Location** is correct; if multiple kiosks share the location, select the right one from the **Terminal** dropdown. Use the **Copy** button to quickly apply it to other submissions at the same location.
+   - Check fields highlighted in red/orange (indicating errors or low confidence) and correct them if needed.
+   - Click **Send** to submit individual entries, or check the **Include in Send All** box on relevant submissions and use **Send All** to batch-submit them at once to the UEX Website, associating submissions with your UEX account.
+   - Sent screenshots can optionally be cleaned up automatically (enable in Settings).
    - Screenshots are saved to the `/screenshots` folder within the application directory.
 
 4. **Access Help**:
